@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+*{
+  font-family: 'Comfortaa', cursive;
+}
+body{
+  color:#9FC131;
+  background-color: #042940;
+  text-align:center
+}
+ p{
+   display: inline-block;
+    padding: 0 10px;
+}
+label, p{
+  color: #D6D58E;
+}
+
+.resultado > h2 {
+  
+  color:#D6D58E;
+}
+input{
+  
+  width: 250px;
+  height: 30px;
+  margin: 10px;
+  
+}
+
+.btn {
+  background: #9FC131;
+  background-image: -webkit-linear-gradient(top,  #9FC131, #9FC131);
+  background-image: -moz-linear-gradient(top,  #9FC131, #9FC131);
+  background-image: -ms-linear-gradient(top,  #9FC131, #9FC131);
+  background-image: -o-linear-gradient(top,  #9FC131, #9FC131);
+  background-image: linear-gradient(to bottom,  #9FC131, #9FC131);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
